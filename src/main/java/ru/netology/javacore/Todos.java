@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Todos {
-    public List<String> todos;
+    private List<String> todos;
 
     public Todos() {
         this.todos = new ArrayList<> ();
